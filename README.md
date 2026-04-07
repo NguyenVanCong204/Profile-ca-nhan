@@ -29,17 +29,20 @@ Một trang web Portfolio cá nhân hiện đại, chuyên nghiệp được xâ
 ## 🚀 Getting Started | Hướng dẫn bắt đầu
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/NguyenVanCong204/Profile-ca-nhan.git
 cd Profile-ca-nhan
 ```
 
 ### 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 ### 3. Run development server
+
 ```bash
 npm run dev
 ```
@@ -66,7 +69,8 @@ Mở [http://localhost:3000](http://localhost:3000) trên trình duyệt của b
 
 ## 📝 License
 
-Dự án này được cấp phép theo mã nguồn mở. Cảm ơn bạn đã quan tâm!
+Dự án này được cấp phép theo mã nguồn mở. Cảm ơn bạn đã quan tâm !
 
 ---
+
 Developed with ❤️ by **Nguyen Van Cong**
