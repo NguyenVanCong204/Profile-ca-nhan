@@ -1,0 +1,111 @@
+{
+  "Metadata": {
+    "title": "Developer | Personal Portfolio",
+    "description": "Professional portfolio showcasing modern design and high performance."
+  },
+  "Nav": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Building the future through <accent>elegant code</accent>",
+    "subtitle": "Hello, I'm a <bold>Developer</bold> passionate about creating refined, high-performance, and user-centric digital products. Ready to turn your ideas into reality.",
+    "cta_contact": "Contact Me",
+    "cta_projects": "View Projects",
+    "stats_years": "Years Experience",
+    "stats_projects": "Projects Done",
+    "stats_satisfaction": "Client Satisfaction",
+    "copyright": "All rights reserved."
+  },
+  "About": {
+    "title": "About Me",
+    "bio_title": "Journey and Passion",
+    "bio_p1": "With over 5 years of experience in the software development industry, I always seek a perfect blend of visual art and technological power. Every line of code I write is not just logic, but a commitment to bringing real value to users.",
+    "bio_p2": "I believe that technology is a tool to solve complex problems in the simplest way. Let me accompany you on your next project.",
+    "skills_title": "Core Skills",
+    "skills": ["React / Next.js", "Node.js", "TypeScript", "SQL / NoSQL", "UI/UX Design", "Cloud Architecture", "Performance Optimization"]
+  },
+  "Projects": {
+    "title": "Selected Works",
+    "ecommerce": "E-Commerce Management System",
+    "ecommerce_cat": "E-Commerce",
+    "ecommerce_desc": "Large-scale platform supporting thousands of transactions per second, optimizing the shopping experience.",
+    "healthcare": "Health Tracking Application",
+    "healthcare_cat": "Digital Health",
+    "healthcare_desc": "Real-time biometric data analysis, helping users improve their quality of life.",
+    "edtech": "Online Training Portal",
+    "edtech_cat": "EdTech",
+    "edtech_desc": "Interactive learning solution with video streaming and automated assessment tools."
+  },
+  "Contact": {
+    "title": "Ready to Start a Project?",
+    "subtitle": "I'm always open to hearing new ideas and discussing potential collaboration opportunities. Let's connect through these platforms:",
+    "cta": "Send Email",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "twitter": "Twitter"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "message": "Your message here...",
+      "send": "Send Message Now",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent successfully. I will get back to you soon.",
+      "error": "Oops, something went wrong. Please try again later."
+    }
+  },
+  "SocialLinks": {
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "facebook": "https://facebook.com",
+    "twitter": "https://twitter.com"
+  },
+  "Experience": {
+    "title": "Work Experience",
+    "items": {
+      "exp1": {
+        "company": "Tech Global Solutions",
+        "role": "Senior Full-stack Developer",
+        "period": "2021 - Present",
+        "points": [
+          "Led development of a CRM system serving 100,000 users.",
+          "Optimized frontend performance, reducing page load times by 40%.",
+          "Engineered Microservices architecture using Next.js and Node.js."
+        ]
+      },
+      "exp2": {
+        "company": "Creative Digital Agency",
+        "role": "Web Developer",
+        "period": "2018 - 2021",
+        "points": [
+          "Developed over 30 high-quality corporate websites.",
+          "Implemented custom CMS solutions for independent content management.",
+          "Integrated international payment gateways (Stripe, PayPal)."
+        ]
+      },
+      "exp3": {
+        "company": "Startup Hub",
+        "role": "Junior Developer",
+        "period": "2016 - 2018",
+        "points": [
+          "Built high-engagement, responsive landing pages.",
+          "Supported maintenance and legacy web system updates.",
+          "Proactively adopted and integrated new technologies into projects."
+        ]
+      }
+    }
+  },
+  "Services": {
+    "title": "Areas of Expertise",
+    "s1_title": "Full-stack Development",
+    "s1_desc": "Building modern web applications from user interfaces to database management systems.",
+    "s2_title": "Performance Optimization",
+    "s2_desc": "Analyzing and improving page load speeds, enhancing the end-user experience.",
+    "s3_title": "Solution Consulting",
+    "s3_desc": "Proposing optimal software architectures to help businesses save costs and time."
+  }
+}

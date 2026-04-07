@@ -1,0 +1,156 @@
+.contactSection {
+  padding: 8rem 2rem;
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(circle at 10% 20%, rgba(56, 189, 248, 0.05) 0%, transparent 50%),
+              radial-gradient(circle at 90% 80%, rgba(56, 189, 248, 0.05) 0%, transparent 50%);
+}
+
+.card {
+  width: 100%;
+  max-width: 60rem;
+  padding: 5rem;
+  border-radius: 2.5rem;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 50px 100px -20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.04em;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.inputGroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.field label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.field input, .field textarea {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.field input:focus, .field textarea:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.15);
+}
+
+.field textarea {
+  resize: vertical;
+}
+
+.successMessage {
+  padding: 1.5rem;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 1rem;
+  color: #4ade80;
+  font-weight: 500;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.errorMessage {
+  padding: 1.5rem;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 1rem;
+  color: #f87171;
+  font-weight: 500;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 5rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--glass-border);
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.socialLink {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.socialLink:hover {
+  color: var(--accent-primary);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 992px) {
+  .card {
+    padding: 4rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .inputGroup {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .socials {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}

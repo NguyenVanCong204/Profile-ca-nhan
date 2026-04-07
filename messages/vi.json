@@ -1,0 +1,111 @@
+{
+  "Metadata": {
+    "title": "Lập trình viên | Portfolio Cá nhân",
+    "description": "Trang giới thiệu bản thân chuyên nghiệp, thiết kế hiện đại và hiệu năng cao."
+  },
+  "Nav": {
+    "about": "Về tôi",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
+  },
+  "Hero": {
+    "title": "Xây dựng tương lai qua <accent>dòng code</accent>",
+    "subtitle": "Chào bạn, tôi là một <bold>Lập trình viên</bold> đam mê kiến tạo những sản phẩm số tinh tế, hiệu năng và lấy người dùng làm trung tâm. Sẵn sàng biến ý tưởng của bạn thành hiện thực.",
+    "cta_contact": "Liên hệ tôi",
+    "cta_projects": "Xem dự án",
+    "stats_years": "Năm kinh nghiệm",
+    "stats_projects": "Dự án hoàn thành",
+    "stats_satisfaction": "Khách hàng hài lòng",
+    "copyright": "Bản quyền thuộc về tôi."
+  },
+  "About": {
+    "title": "Giới thiệu bản thân",
+    "bio_title": "Hành trình và Đam mê",
+    "bio_p1": "Với hơn 5 năm kinh nghiệm trong ngành phát triển phần mềm, tôi luôn tìm kiếm sự kết hợp hoàn mỹ giữa nghệ thuật thị giác và sức mạnh công nghệ. Mỗi dòng code tôi viết ra không chỉ là logic, mà là tâm huyết để mang lại giá trị thực sự cho người dùng.",
+    "bio_p2": "Tôi tin rằng công nghệ là công cụ để giải quyết những vấn đề phức tạp một cách đơn giản nhất. Hãy để tôi đồng hành cùng dự án tiếp theo của bạn.",
+    "skills_title": "Kỹ năng thế mạnh",
+    "skills": ["React / Next.js", "Node.js", "TypeScript", "SQL / NoSQL", "Thiết kế UI/UX", "Kiến trúc Cloud", "Tối ưu hiệu năng"]
+  },
+  "Projects": {
+    "title": "Dự án tiêu biểu",
+    "ecommerce": "Hệ thống Quản lý Bán hàng",
+    "ecommerce_cat": "Thương mại điện tử",
+    "ecommerce_desc": "Nền tảng quy mô lớn hỗ trợ hàng ngàn giao dịch mỗi giây, tối ưu hóa trải nghiệm mua sắm.",
+    "healthcare": "Ứng dụng Theo dõi Sức khỏe",
+    "healthcare_cat": "Y tế số",
+    "healthcare_desc": "Phân tích dữ liệu sinh tạo thời gian thực, giúp người dùng cải thiện chất lượng cuộc sống.",
+    "edtech": "Portal Đào tạo Trực tuyến",
+    "edtech_cat": "EdTech",
+    "edtech_desc": "Giải pháp học tập tương tác với video streaming và bài tập trắc nghiệm tự động hóa."
+  },
+  "Contact": {
+    "title": "Sẵn sàng khởi đầu dự án?",
+    "subtitle": "Tôi luôn sẵn lòng lắng nghe ý tưởng mới và thảo luận về những cơ hội hợp tác đầy tiềm năng. Hãy kết nối với tôi qua các nền tảng sau:",
+    "cta": "Gửi Email",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "twitter": "Twitter"
+    },
+    "form": {
+      "name": "Họ và tên",
+      "email": "Địa chỉ Email",
+      "message": "Nội dung tin nhắn...",
+      "send": "Gửi tin nhắn ngay",
+      "sending": "Đang gửi...",
+      "success": "Cảm ơn bạn! Tin nhắn đã được gửi thành công. Tôi sẽ phản hồi sớm nhất có thể.",
+      "error": "Rất tiếc, đã có lỗi xảy ra. Vui lòng thử lại sau."
+    }
+  },
+  "SocialLinks": {
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "facebook": "https://facebook.com",
+    "twitter": "https://twitter.com"
+  },
+  "Experience": {
+    "title": "Lịch sử công tác",
+    "items": {
+      "exp1": {
+        "company": "Tech Global Solutions",
+        "role": "Lập trình viên Full-stack Cao cấp",
+        "period": "2021 - Hiện tại",
+        "points": [
+          "Dẫn dắt phát triển hệ thống CRM cho 100,000 người dùng.",
+          "Tối ưu hiệu năng Frontend giúp giảm 40% thời gian tải trang.",
+          "Xây dựng kiến trúc Microservices với Next.js và Node.js."
+        ]
+      },
+      "exp2": {
+        "company": "Creative Digital Agency",
+        "role": "Lập trình viên Web",
+        "period": "2018 - 2021",
+        "points": [
+          "Phát triển hơn 30 website doanh nghiệp chất lượng cao.",
+          "Triển khai CMS tùy chỉnh cho phép khách hàng tự quản lý nội dung.",
+          "Tích hợp các cổng thanh toán quốc tế (Stripe, PayPal)."
+        ]
+      },
+      "exp3": {
+        "company": "Startup Hub",
+        "role": "Lập trình viên Tập sự",
+        "period": "2016 - 2018",
+        "points": [
+          "Xây dựng các trang Landing Page phản hồi nhanh và tương tác cao.",
+          "Hỗ trợ bảo trì và cập nhật các hệ thống web cũ.",
+          "Chủ động học tập và áp dụng các công nghệ mới vào dự án."
+        ]
+      }
+    }
+  },
+  "Services": {
+    "title": "Thế mạnh & Dịch vụ",
+    "s1_title": "Phát triển Full-stack",
+    "s1_desc": "Xây dựng ứng dụng web hiện đại từ giao diện người dùng đến hệ quản trị cơ sở dữ liệu.",
+    "s2_title": "Tối ưu hiệu năng",
+    "s2_desc": "Phân tích và cải thiện tốc độ tải trang, nâng cao trải nghiệm người dùng cuối.",
+    "s3_title": "Tư vấn Giải pháp",
+    "s3_desc": "Đề xuất kiến trúc phần mềm tối ưu, giúp doanh nghiệp tiết kiệm chi phí và thời gian."
+  }
+}
