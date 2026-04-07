@@ -9,34 +9,34 @@
     "contact": "Contact"
   },
   "Hero": {
-    "title": "Building the future through <accent>elegant code</accent>",
-    "subtitle": "Hello, I'm a <bold>Developer</bold> passionate about creating refined, high-performance, and user-centric digital products. Ready to turn your ideas into reality.",
-    "cta_contact": "Contact Me",
-    "cta_projects": "View Projects",
-    "stats_years": "Years Experience",
-    "stats_projects": "Projects Done",
-    "stats_satisfaction": "Client Satisfaction",
-    "copyright": "All rights reserved."
+    "title": "Xây dựng tương lai qua <accent>Kiến trúc Full-stack</accent>",
+    "subtitle": "Chào bạn, tôi là <bold>Nguyễn Văn Công</bold>, một Lập trình viên Full-stack đam mê xây dựng các hệ thống mạnh mẽ, có khả năng mở rộng và các giải pháp kỹ thuật số tinh tế. Sẵn sàng biến ý tưởng của bạn thành hiện thực.",
+    "cta_contact": "Liên hệ tôi",
+    "cta_projects": "Xem dự án",
+    "stats_years": "Năm kinh nghiệm",
+    "stats_projects": "Dự án hoàn thành",
+    "stats_satisfaction": "Khách hàng hài lòng",
+    "copyright": "Bản quyền thuộc về tôi."
   },
   "About": {
-    "title": "About Me",
-    "bio_title": "Journey and Passion",
-    "bio_p1": "With over 5 years of experience in the software development industry, I always seek a perfect blend of visual art and technological power. Every line of code I write is not just logic, but a commitment to bringing real value to users.",
-    "bio_p2": "I believe that technology is a tool to solve complex problems in the simplest way. Let me accompany you on your next project.",
-    "skills_title": "Core Skills",
-    "skills": ["React / Next.js", "Node.js", "TypeScript", "SQL / NoSQL", "UI/UX Design", "Cloud Architecture", "Performance Optimization"]
+    "title": "Giới thiệu bản thân",
+    "bio_title": "Hành trình và Đam mê",
+    "bio_p1": "Tôi là sinh viên năm cuối ngành CNTT, tập trung vào Thiết kế Hệ thống Backend, Kiến trúc SaaS và Hạ tầng Cloud.",
+    "bio_p2": "Tôi chuyên sâu xây dựng các nền tảng SaaS quy mô lớn với NestJS, Prisma và PostgreSQL. Tôi thành thạo triển khai các tính năng real-time, Redis caching và phân quyền nâng cao với CASL. Về Frontend, tôi sử dụng Next.js và Zustand để quản lý state hiệu năng cao.",
+    "skills_title": "Kỹ năng thế mạnh",
+    "skills": ["NestJS / Node.js", "Next.js / Vue.js", "Prisma / PostgreSQL", "Zustand / Persist", "CASL / RBAC", "AWS / Cloud", "Redis / Caching", "Real-time / SaaS"]
   },
   "Projects": {
     "title": "Selected Works",
-    "ecommerce": "E-Commerce Management System",
-    "ecommerce_cat": "E-Commerce",
-    "ecommerce_desc": "Large-scale platform supporting thousands of transactions per second, optimizing the shopping experience.",
-    "healthcare": "Health Tracking Application",
-    "healthcare_cat": "Digital Health",
-    "healthcare_desc": "Real-time biometric data analysis, helping users improve their quality of life.",
-    "edtech": "Online Training Portal",
-    "edtech_cat": "EdTech",
-    "edtech_desc": "Interactive learning solution with video streaming and automated assessment tools."
+    "ecommerce": "E-Commerce Backend (SaaS)",
+    "ecommerce_cat": "SaaS / Backend",
+    "ecommerce_desc": "Xây dựng SaaS backend quy mô lớn với NestJS và Prisma, triển khai CASL để phân quyền chi tiết, Redis caching và hạ tầng AWS.",
+    "healthcare": "Nền tảng Real-time (Next.js)",
+    "healthcare_cat": "Full-stack Development",
+    "healthcare_desc": "Phát triển nền tảng full-stack sử dụng Next.js và MongoDB, tích hợp chat thời gian thực, quản lý state với Zustand và lưu trữ AWS S3.",
+    "edtech": "Personal Portfolio",
+    "edtech_cat": "Web Design",
+    "edtech_desc": "Modern personal portfolio website built with Next.js and high-performance glassmorphism aesthetics."
   },
   "Contact": {
     "title": "Ready to Start a Project?",
@@ -65,36 +65,28 @@
     "twitter": "https://twitter.com"
   },
   "Experience": {
-    "title": "Work Experience",
+    "title": "Projects & Internship",
     "items": {
       "exp1": {
-        "company": "Tech Global Solutions",
-        "role": "Senior Full-stack Developer",
-        "period": "2021 - Present",
+        "company": "Hệ thống SaaS E-Commerce (NestJS)",
+        "role": "Full-stack Developer",
+        "period": "Jan 2025 - Mar 2025",
         "points": [
-          "Led development of a CRM system serving 100,000 users.",
-          "Optimized frontend performance, reducing page load times by 40%.",
-          "Engineered Microservices architecture using Next.js and Node.js."
+          "Built RESTful APIs following MVC architecture using NestJS.",
+          "Implemented JWT authentication and role-based access control.",
+          "Optimized performance with Redis caching for frequently accessed data.",
+          "Ensured data integrity using Database Transactions for complex order flows."
         ]
       },
       "exp2": {
-        "company": "Creative Digital Agency",
-        "role": "Web Developer",
-        "period": "2018 - 2021",
+        "company": "Real-time Platform (Next.js)",
+        "role": "Full-stack Developer",
+        "period": "Nov 2025 - Jan 2026",
         "points": [
-          "Developed over 30 high-quality corporate websites.",
-          "Implemented custom CMS solutions for independent content management.",
-          "Integrated international payment gateways (Stripe, PayPal)."
-        ]
-      },
-      "exp3": {
-        "company": "Startup Hub",
-        "role": "Junior Developer",
-        "period": "2016 - 2018",
-        "points": [
-          "Built high-engagement, responsive landing pages.",
-          "Supported maintenance and legacy web system updates.",
-          "Proactively adopted and integrated new technologies into projects."
+          "Architected real-time messaging using Socket.io and MongoDB.",
+          "Integrated AWS S3 for scalable media and file storage.",
+          "Built high-performance UI components with Next.js and Tailwind.",
+          "Implemented complex database transactions for order integrity."
         ]
       }
     }

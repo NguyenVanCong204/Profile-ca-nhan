@@ -7,10 +7,7 @@ import {useTranslations} from 'next-intl';
 const About = () => {
   const t = useTranslations('About');
   
-  const skills = [
-    t('skills.0'), t('skills.1'), t('skills.2'), t('skills.3'),
-    t('skills.4'), t('skills.5'), t('skills.6')
-  ];
+  const skills = t.raw('skills') as string[];
 
   return (
     <section id="about" className={styles.aboutSection}>

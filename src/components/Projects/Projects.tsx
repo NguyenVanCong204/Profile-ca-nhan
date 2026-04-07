@@ -13,7 +13,7 @@ const Projects = () => {
       title: t('ecommerce'),
       category: t('ecommerce_cat'),
       description: t('ecommerce_desc'),
-      tags: ["Next.js", "PostgreSQL", "Prisma", "Stripe"],
+      tags: ["NestJS", "Prisma", "PostgreSQL", "AWS"],
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800"
     },
     {
@@ -21,7 +21,7 @@ const Projects = () => {
       title: t('healthcare'),
       category: t('healthcare_cat'),
       description: t('healthcare_desc'),
-      tags: ["React Native", "Firebase", "Node.js", "Chart.js"],
+      tags: ["Next.js", "MongoDB", "Socket.io", "AWS"],
       image: "https://images.unsplash.com/photo-1576091160550-217359f4814c?auto=format&fit=crop&q=80&w=800"
     },
     {
@@ -29,7 +29,7 @@ const Projects = () => {
       title: t('edtech'),
       category: t('edtech_cat'),
       description: t('edtech_desc'),
-      tags: ["Next.js", "Socket.io", "MongoDB", "AWS"],
+      tags: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
       image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=800"
     }
   ];
