@@ -22,6 +22,10 @@ body {
   overflow-x: hidden;
 }
 
+:root {
+  --spacing-section: clamp(4rem, 10vw, 8rem);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Outfit', sans-serif;
   font-weight: 700;
@@ -30,18 +34,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  font-size: clamp(2.25rem, 8vw, 4.5rem);
   line-height: 1.1;
 }
 
 h2 {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(1.75rem, 5vw, 3rem);
   text-align: center;
   position: relative;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 4rem;
+  display: block;
+  margin-bottom: clamp(3rem, 8vw, 4rem);
 }
 
 h2::after {
@@ -64,11 +66,11 @@ a {
 
 p {
   color: var(--text-secondary);
-  font-size: 1.125rem;
+  font-size: clamp(1rem, 2vw, 1.125rem);
 }
 
 main {
-  max-width: 75rem;
+  max-width: 80rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }

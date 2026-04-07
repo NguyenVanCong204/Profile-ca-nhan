@@ -1,19 +1,28 @@
 .heroSection {
   min-height: 100vh;
   display: flex;
-  align-items: center;
-  padding: 8rem 2rem;
-  background: radial-gradient(circle at 10% 20%, rgba(56, 189, 248, 0.05) 0%, transparent 50%),
-              radial-gradient(circle at 90% 80%, rgba(56, 189, 248, 0.05) 0%, transparent 50%);
+  align-items: stretch;
+  padding: 6rem 2rem;
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(56, 189, 248, 0.05) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      rgba(56, 189, 248, 0.05) 0%,
+      transparent 50%
+    );
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4rem;
+  gap: 2rem;
   width: 100%;
 }
 
@@ -62,7 +71,7 @@
   font-size: 2rem;
   font-weight: 800;
   color: var(--text-primary);
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   margin-bottom: 0.25rem;
 }
 
@@ -76,17 +85,16 @@
 
 .imageColumn {
   position: relative;
-  flex: 1;
-  max-width: 500px;
-  display: flex;
-  justify-content: center;
+  flex: 0 0 650px; /* Fixed wide column */
+  width: 650px;
+  display: block;
 }
 
 .blob {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-60%, -50%); /* Dịch blob sang trái theo ảnh */
   width: 120%;
   height: 120%;
   background: var(--grad-primary);
@@ -98,33 +106,34 @@
 }
 
 @keyframes pulse {
-  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.15; }
-  50% { transform: translate(-50%, -50%) scale(1.1); opacity: 0.2; }
+  0%,
+  100% {
+    transform: translate(-60%, -50%) scale(1);
+    opacity: 0.15;
+  }
+  50% {
+    transform: translate(-60%, -50%) scale(1.1);
+    opacity: 0.2;
+  }
 }
 
 .imageCard {
   position: relative;
   z-index: 1;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 2rem;
-  overflow: hidden;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.imageCard:hover {
-  transform: translateY(-10px) rotateY(-5deg);
-  border-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
 }
 
 .profileImg {
-  width: 100%;
-  height: auto;
-  border-radius: 1.5rem;
+  width: 100%;  /* Full 650px column width */
+  height: auto; /* Preserve full portrait, no cropping */
   display: block;
+  border-radius: 3rem; /* Bo góc đẹp */
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.imageCard:hover .profileImg {
+  transform: translateY(-8px);
 }
 
 @media (max-width: 992px) {
@@ -155,6 +164,8 @@
 
   .imageColumn {
     order: 1;
-    max-width: 400px;
+    flex: none;
+    width: 100%;
+    max-width: 480px;
   }
 }

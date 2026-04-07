@@ -3,6 +3,7 @@ import {getMessages, setRequestLocale, getTranslations} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
 import Header from '@/components/Header/Header';
 import {Analytics} from '@vercel/analytics/react';
+import {Providers} from '@/components/Providers';
 import './globals.css';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}) {
@@ -48,38 +49,59 @@ export default async function RootLayout({
   const socialKeys = ['github', 'linkedin', 'facebook', 'twitter'] as const;
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
+      <head>
+        {/* Blocking script: sets theme before React hydrates to prevent flash */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var stored = localStorage.getItem('theme-v3');
+                  var theme = stored ? stored : 'dark';
+                  document.documentElement.setAttribute('data-theme', theme);
+                } catch(e) {
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            `,
+          }}
+        />
+      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <Header />
-          {children}
-          <Analytics />
-          <footer
-            style={{
-              padding: "4rem 0",
-              textAlign: "center",
-              borderTop: "1px solid var(--glass-border)",
-              marginTop: "4rem",
-              background: "rgba(15, 23, 42, 0.3)",
-            }}
-          >
-            <div style={{ marginBottom: "1.5rem", display: "flex", justifyContent: "center", gap: "2rem" }}>
-              {socialKeys.map((key) => (
-                <a 
-                  key={key} 
-                  href={s(key)} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  style={{ color: "var(--text-secondary)", textDecoration: "none", fontSize: "0.875rem", fontWeight: 500 }}
-                >
-                  {sc(`social.${key}`)}
-                </a>
-              ))}
-            </div>
-            <p style={{ color: "var(--text-secondary)", fontSize: "0.875rem opacity: 0.6" }}>
-              &copy; {new Date().getFullYear()} {t('copyright')}
-            </p>
-          </footer>
+          <Providers>
+            <Header />
+            {children}
+            <Analytics />
+            <footer
+              style={{
+                padding: "4rem 0",
+                textAlign: "center",
+                borderTop: "1px solid var(--glass-border)",
+                marginTop: "4rem",
+                background: "var(--bg-secondary)",
+                opacity: 0.9
+              }}
+            >
+              <div style={{ marginBottom: "1.5rem", display: "flex", justifyContent: "center", gap: "2rem" }}>
+                {socialKeys.map((key) => (
+                  <a 
+                    key={key} 
+                    href={s(key)} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ color: "var(--text-secondary)", textDecoration: "none", fontSize: "0.875rem", fontWeight: 500 }}
+                  >
+                    {sc(`social.${key}`)}
+                  </a>
+                ))}
+              </div>
+              <p style={{ color: "var(--text-secondary)", fontSize: "0.875rem opacity: 0.6" }}>
+                &copy; {new Date().getFullYear()} {t('copyright')}
+              </p>
+            </footer>
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>

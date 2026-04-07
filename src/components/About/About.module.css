@@ -3,6 +3,13 @@
   border-radius: var(--radius-lg);
   padding: var(--spacing-section) 3rem;
   margin-top: 5rem;
+  text-align: center;
+}
+
+.aboutSection h2 {
+  left: auto;
+  transform: none;
+  display: block;
 }
 
 .container {
@@ -44,10 +51,27 @@
 @media (max-width: 1024px) {
   .container {
     grid-template-columns: 1fr;
-    gap: 4rem;
+    gap: 3rem;
   }
   
   .aboutSection {
-    padding: 4rem 1.5rem;
+    padding: 4rem 2rem;
+    margin-top: 3rem;
+  }
+  
+  .bio p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .aboutSection {
+    padding: 3rem 1.5rem;
+  }
+  
+  .skillBadge {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
   }
 }

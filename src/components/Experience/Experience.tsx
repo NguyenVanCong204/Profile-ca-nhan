@@ -15,7 +15,6 @@ const Experience = () => {
         {historyKeys.map((key) => (
           <div key={key} className={styles.timelineItem}>
             <div className={styles.date}>{t(`items.${key}.period`)}</div>
-            <div className={styles.dot}></div>
             <div className={`${styles.content} glass`}>
               <h3>{t(`items.${key}.role`)}</h3>
               <h4>{t(`items.${key}.company`)}</h4>

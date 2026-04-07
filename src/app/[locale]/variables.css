@@ -24,11 +24,16 @@
 }
 
 [data-theme='light'] {
-  --bg-primary: #f8fafc;
-  --bg-secondary: #ffffff;
-  --text-primary: #0f172a;
+  --bg-primary: #f8fafc;  /* Almost white for main body */
+  --bg-secondary: #f1f5f9; /* Soft slate gray for distinct sections like About */
+  --text-primary: #0f172a; /* Deep blue text for contrast */
   --text-secondary: #475569;
-  --accent-primary: #0ea5e9;
-  --accent-secondary: #6366f1;
-  --grad-surface: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(248, 250, 252, 0.8) 100%);
+  --accent-primary: #0284c7;
+  --accent-secondary: #4f46e5;
+  --grad-surface: linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
+  
+  /* Solid white cards mimicking the beautiful mobile look */
+  --glass-bg: #ffffff;
+  --glass-border: rgba(15, 23, 42, 0.08); /* Very light border */
+  --glass-shadow: 0 4px 12px rgba(0, 0, 0, 0.03), 0 20px 25px -5px rgba(0, 0, 0, 0.04);
 }

@@ -1,5 +1,12 @@
 .projectsSection {
-  padding: var(--spacing-section) 0;
+  padding: 2rem 0 var(--spacing-section);
+  text-align: center;
+}
+
+.projectsSection h2 {
+  left: auto;
+  transform: none;
+  display: block;
 }
 
 .grid {
@@ -21,7 +28,7 @@
 .card:hover {
   transform: translateY(-10px) scale(1.02);
   border-bottom-color: var(--accent-primary);
-  background: rgba(30, 41, 59, 0.6);
+  background: var(--bg-secondary);
 }
 
 .category {

@@ -1,8 +1,28 @@
+.expSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.expSection h2 {
+  left: auto;
+  transform: none;
+  display: block;
+  text-align: center;
+}
+
 .servicesSection {
   max-width: 1200px;
   margin: 0 auto;
   padding: 6rem 2rem;
   text-align: center;
+}
+
+.servicesSection h2 {
+  left: auto;
+  transform: none;
+  display: block;
 }
 
 .grid {
@@ -15,6 +35,10 @@
 .card {
   padding: 3rem 2rem;
   border-radius: 1.5rem;
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(12px);
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   text-align: left;
   display: flex;
@@ -25,19 +49,20 @@
 .card:hover {
   transform: translateY(-10px);
   border-color: var(--accent-primary);
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--bg-secondary);
 }
 
 .icon {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-  background: rgba(56, 189, 248, 0.1);
-  width: 4rem;
-  height: 4rem;
+  background: rgba(56, 189, 248, 0.15);
+  width: 4.5rem;
+  height: 4.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 1rem;
+  border-radius: 1.125rem;
+  color: var(--accent-primary);
 }
 
 .card h3 {
@@ -56,5 +81,16 @@
   .grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  
+  .card {
+    padding: 2rem;
+  }
+
+  .icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 2rem;
   }
 }
