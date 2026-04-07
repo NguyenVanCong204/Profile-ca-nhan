@@ -9,8 +9,8 @@
     "contact": "Liên hệ"
   },
   "Hero": {
-    "title": "Xây dựng tương lai qua <accent>dòng code</accent>",
-    "subtitle": "Chào bạn, tôi là một <bold>Lập trình viên</bold> đam mê kiến tạo những sản phẩm số tinh tế, hiệu năng và lấy người dùng làm trung tâm. Sẵn sàng biến ý tưởng của bạn thành hiện thực.",
+    "title": "Xây dựng tương lai qua <accent>Kiến trúc Backend & Full-stack</accent>",
+    "subtitle": "Chào bạn, tôi là <bold>Nguyễn Văn Công</bold>, một Lập trình viên Backend đam mê xây dựng các hệ thống mạnh mẽ, có khả năng mở rộng và các giải pháp kỹ thuật số tinh tế. Sẵn sàng biến ý tưởng của bạn thành hiện thực.",
     "cta_contact": "Liên hệ tôi",
     "cta_projects": "Xem dự án",
     "stats_years": "Năm kinh nghiệm",
@@ -21,22 +21,22 @@
   "About": {
     "title": "Giới thiệu bản thân",
     "bio_title": "Hành trình và Đam mê",
-    "bio_p1": "Với hơn 5 năm kinh nghiệm trong ngành phát triển phần mềm, tôi luôn tìm kiếm sự kết hợp hoàn mỹ giữa nghệ thuật thị giác và sức mạnh công nghệ. Mỗi dòng code tôi viết ra không chỉ là logic, mà là tâm huyết để mang lại giá trị thực sự cho người dùng.",
-    "bio_p2": "Tôi tin rằng công nghệ là công cụ để giải quyết những vấn đề phức tạp một cách đơn giản nhất. Hãy để tôi đồng hành cùng dự án tiếp theo của bạn.",
+    "bio_p1": "Tôi là sinh viên năm cuối ngành Công nghệ Thông tin đang theo đuổi bằng Kỹ sư, với sự tập trung chuyên sâu vào Thiết kế Hệ thống Backend, Kiến trúc SaaS và Hạ tầng Cloud.",
+    "bio_p2": "Tôi có thế mạnh trong việc xây dựng các nền tảng SaaS quy mô lớn sử dụng NestJS, Prisma và PostgreSQL. Tôi đam mê triển khai các tính năng nâng cao như giao tiếp thời gian thực, Redis caching và hạ tầng cloud AWS để đảm bảo hiệu năng và độ tin cậy tối ưu.",
     "skills_title": "Kỹ năng thế mạnh",
-    "skills": ["React / Next.js", "Node.js", "TypeScript", "SQL / NoSQL", "Thiết kế UI/UX", "Kiến trúc Cloud", "Tối ưu hiệu năng"]
+    "skills": ["SaaS / Kiến trúc", "NestJS / Node.js", "Next.js / Vue.js", "Prisma / PostgreSQL", "MongoDB / NoSQL", "AWS / Cloud", "Redis / Caching", "Chat Realtime"]
   },
   "Projects": {
     "title": "Dự án tiêu biểu",
-    "ecommerce": "Hệ thống Quản lý Bán hàng",
-    "ecommerce_cat": "Thương mại điện tử",
-    "ecommerce_desc": "Nền tảng quy mô lớn hỗ trợ hàng ngàn giao dịch mỗi giây, tối ưu hóa trải nghiệm mua sắm.",
-    "healthcare": "Ứng dụng Theo dõi Sức khỏe",
-    "healthcare_cat": "Y tế số",
-    "healthcare_desc": "Phân tích dữ liệu sinh tạo thời gian thực, giúp người dùng cải thiện chất lượng cuộc sống.",
-    "edtech": "Portal Đào tạo Trực tuyến",
-    "edtech_cat": "EdTech",
-    "edtech_desc": "Giải pháp học tập tương tác với video streaming và bài tập trắc nghiệm tự động hóa."
+    "ecommerce": "Backend E-Commerce (SaaS)",
+    "ecommerce_cat": "Kiến trúc SaaS / Backend",
+    "ecommerce_desc": "Xây dựng hệ thống quản lý quy mô lớn với NestJS và Prisma, triển khai PostgreSQL, Redis caching và triển khai AWS cho khả năng sẵn sàng cao.",
+    "healthcare": "E-Commerce Real-time (Next.js)",
+    "healthcare_cat": "Lập trình viên Full-stack",
+    "healthcare_desc": "Phát triển nền tảng full-stack sử dụng Next.js và MongoDB, tích hợp chat thời gian thực và lưu trữ media bảo mật trên AWS S3.",
+    "edtech": "Portfolio Cá nhân",
+    "edtech_cat": "Thiết kế Web",
+    "edtech_desc": "Trang web giới thiệu bản thân hiện đại được xây dựng với Next.js và phong cách thiết kế glassmorphism hiệu năng cao."
   },
   "Contact": {
     "title": "Sẵn sàng khởi đầu dự án?",
@@ -65,36 +65,28 @@
     "twitter": "https://twitter.com"
   },
   "Experience": {
-    "title": "Lịch sử công tác",
+    "title": "Dự án & Thực tập",
     "items": {
       "exp1": {
-        "company": "Tech Global Solutions",
-        "role": "Lập trình viên Full-stack Cao cấp",
-        "period": "2021 - Hiện tại",
+        "company": "Hệ thống E-Commerce (NestJS)",
+        "role": "Lập trình viên Backend",
+        "period": "Tháng 01/2025 - Tháng 03/2025",
         "points": [
-          "Dẫn dắt phát triển hệ thống CRM cho 100,000 người dùng.",
-          "Tối ưu hiệu năng Frontend giúp giảm 40% thời gian tải trang.",
-          "Xây dựng kiến trúc Microservices với Next.js và Node.js."
+          "Xây dựng RESTful APIs theo kiến trúc MVC sử dụng NestJS.",
+          "Triển khai xác thực JWT và phân quyền người dùng (Role-based AC).",
+          "Tối ưu hiệu năng với Redis caching cho các dữ liệu truy cập thường xuyên.",
+          "Đảm bảo toàn vẹn dữ liệu bằng Database Transactions cho các luồng đặt hàng phức tạp."
         ]
       },
       "exp2": {
-        "company": "Creative Digital Agency",
-        "role": "Lập trình viên Web",
-        "period": "2018 - 2021",
+        "company": "Nền tảng Real-time (Next.js)",
+        "role": "Lập trình viên Full-stack",
+        "period": "Tháng 11/2025 - Tháng 01/2026",
         "points": [
-          "Phát triển hơn 30 website doanh nghiệp chất lượng cao.",
-          "Triển khai CMS tùy chỉnh cho phép khách hàng tự quản lý nội dung.",
-          "Tích hợp các cổng thanh toán quốc tế (Stripe, PayPal)."
-        ]
-      },
-      "exp3": {
-        "company": "Startup Hub",
-        "role": "Lập trình viên Tập sự",
-        "period": "2016 - 2018",
-        "points": [
-          "Xây dựng các trang Landing Page phản hồi nhanh và tương tác cao.",
-          "Hỗ trợ bảo trì và cập nhật các hệ thống web cũ.",
-          "Chủ động học tập và áp dụng các công nghệ mới vào dự án."
+          "Kiến trúc hệ thống tin nhắn thời gian thực sử dụng Socket.io và MongoDB.",
+          "Tích hợp AWS S3 để lưu trữ tệp tin và media quy mô lớn.",
+          "Xây dựng giao diện người dùng hiệu năng cao với Next.js và Tailwind.",
+          "Triển khai các database transactions phức tạp để đảm bảo toàn vẹn dữ liệu đơn hàng."
         ]
       }
     }
