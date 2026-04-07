@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Professional Personal Portfolio
 
-## Getting Started
+Một trang web Portfolio cá nhân hiện đại, chuyên nghiệp được xây dựng bằng **Next.js**, hỗ trợ đa ngôn ngữ và chế độ giao diện Sáng/Tối.
 
-First, run the development server:
+---
 
+## ✨ Features | Tính năng nổi bật
+
+- 🌍 **Multi-language Support**: Hỗ trợ tiếng Anh và tiếng Việt sử dụng `next-intl`.
+- 🌓 **Dark/Light Mode**: Chuyển đổi giao diện linh hoạt với `next-themes`.
+- 🎨 **Modern UI/UX**: Thiết kế theo phong cách Glassmorphism, thanh lịch và chuyên nghiệp.
+- 📱 **Fully Responsive**: Hiển thị hoàn hảo trên mọi thiết bị (Mobile, Tablet, Desktop).
+- ⚡ **High Performance**: Tối ưu hóa tốc độ tải trang và SEO nhờ sức mạnh của Next.js.
+- 📬 **Contact Form**: Tích hợp form liên hệ tiện lợi.
+
+---
+
+## 🛠️ Technologies | Công nghệ sử dụng
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) & CSS Modules
+- **Internationalization**: [next-intl](https://next-intl-docs.vercel.app/)
+- **Theme Management**: [next-themes](https://github.com/pacocoursey/next-themes)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: [Vercel](https://vercel.com/)
+
+---
+
+## 🚀 Getting Started | Hướng dẫn bắt đầu
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/NguyenVanCong204/Profile-ca-nhan.git
+cd Profile-ca-nhan
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Install dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Run development server
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Mở [http://localhost:3000](http://localhost:3000) trên trình duyệt của bạn để xem kết quả.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Project Structure | Cấu trúc thư mục
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+├── messages/           # File ngôn ngữ (en.json, vi.json)
+├── public/             # Tài nguyên tĩnh (Images, Favicon)
+├── src/
+│   ├── app/            # Next.js App Router (Layouts, Pages)
+│   ├── components/     # Các UI Components (Hero, About, Projects...)
+│   │   ├── ThemeToggle # Nút chuyển đổi giao diện
+│   │   └── LocaleSwitcher # Nút chuyển đổi ngôn ngữ
+│   └── i18n/           # Cấu hình đa ngôn ngữ
+└── tailwind.config.ts  # Cấu hình Tailwind CSS
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Dự án này được cấp phép theo mã nguồn mở. Cảm ơn bạn đã quan tâm!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+Developed with ❤️ by **Nguyen Van Cong**
