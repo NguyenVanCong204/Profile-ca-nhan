@@ -9,31 +9,40 @@
     "contact": "Contact"
   },
   "Hero": {
-    "title": "Xây dựng tương lai qua <accent>Kiến trúc Full-stack</accent>",
-    "subtitle": "Chào bạn, tôi là <bold>Nguyễn Văn Công</bold>, một Lập trình viên Full-stack đam mê xây dựng các hệ thống mạnh mẽ, có khả năng mở rộng và các giải pháp kỹ thuật số tinh tế. Sẵn sàng biến ý tưởng của bạn thành hiện thực.",
-    "cta_contact": "Liên hệ tôi",
-    "cta_projects": "Xem dự án",
-    "stats_years": "Năm kinh nghiệm",
-    "stats_projects": "Dự án hoàn thành",
-    "stats_satisfaction": "Khách hàng hài lòng",
-    "copyright": "Bản quyền thuộc về tôi."
+    "title": "Building the future through <accent>Full-stack Architecture</accent>",
+    "subtitle": "Hello, I'm <bold>Nguyen Van Cong</bold>, a Full-stack Developer passionate about building robust, scalable systems and elegant digital solutions. Ready to turn your ideas into reality.",
+    "cta_contact": "Contact Me",
+    "cta_projects": "View Projects",
+    "stats_years": "Years Experience",
+    "stats_projects": "Projects Done",
+    "stats_satisfaction": "Client Satisfaction",
+    "copyright": "All rights reserved."
   },
   "About": {
-    "title": "Giới thiệu bản thân",
-    "bio_title": "Hành trình và Đam mê",
-    "bio_p1": "Tôi là sinh viên năm cuối ngành CNTT, tập trung vào Thiết kế Hệ thống Backend, Kiến trúc SaaS và Hạ tầng Cloud.",
-    "bio_p2": "Tôi chuyên sâu xây dựng các nền tảng SaaS quy mô lớn với NestJS, Prisma và PostgreSQL. Tôi thành thạo triển khai các tính năng real-time, Redis caching và phân quyền nâng cao với CASL. Về Frontend, tôi sử dụng Next.js và Zustand để quản lý state hiệu năng cao.",
-    "skills_title": "Kỹ năng thế mạnh",
-    "skills": ["NestJS / Node.js", "Next.js / Vue.js", "Prisma / PostgreSQL", "Zustand / Persist", "CASL / RBAC", "AWS / Cloud", "Redis / Caching", "Real-time / SaaS"]
+    "title": "About Me",
+    "bio_title": "Journey and Passion",
+    "bio_p1": "I am a final-year IT student focused on Backend System Design, SaaS Architecture, and Cloud Infrastructure.",
+    "bio_p2": "I specialize in building scalable SaaS platforms with NestJS, Prisma, and PostgreSQL. I'm proficient in implementing real-time features, Redis caching, and advanced authorization using CASL. On the frontend, I utilize Next.js and Zustand for high-performance state management.",
+    "skills_title": "Core Skills",
+    "skills": [
+      "NestJS / Node.js",
+      "Next.js / Vue.js",
+      "Prisma / PostgreSQL",
+      "Zustand / Persist",
+      "CASL / RBAC",
+      "AWS / Cloud",
+      "Redis / Caching",
+      "Real-time / SaaS"
+    ]
   },
   "Projects": {
     "title": "Selected Works",
     "ecommerce": "E-Commerce Backend (SaaS)",
     "ecommerce_cat": "SaaS / Backend",
-    "ecommerce_desc": "Xây dựng SaaS backend quy mô lớn với NestJS và Prisma, triển khai CASL để phân quyền chi tiết, Redis caching và hạ tầng AWS.",
-    "healthcare": "Nền tảng Real-time (Next.js)",
+    "ecommerce_desc": "Built a scalable SaaS backend with NestJS and Prisma, implementing CASL for fine-grained authorization, Redis caching, and AWS deployment.",
+    "healthcare": "Real-time Platform (Next.js)",
     "healthcare_cat": "Full-stack Development",
-    "healthcare_desc": "Phát triển nền tảng full-stack sử dụng Next.js và MongoDB, tích hợp chat thời gian thực, quản lý state với Zustand và lưu trữ AWS S3.",
+    "healthcare_desc": "Developed a full-stack platform using Next.js and MongoDB, featuring real-time chat, Zustand state management, and secure AWS S3 storage.",
     "edtech": "Personal Portfolio",
     "edtech_cat": "Web Design",
     "edtech_desc": "Modern personal portfolio website built with Next.js and high-performance glassmorphism aesthetics."
@@ -59,16 +68,16 @@
     }
   },
   "SocialLinks": {
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com",
-    "facebook": "https://facebook.com",
+    "github": "https://github.com/NguyenVanCong204",
+    "linkedin": "https://www.linkedin.com/in/nguy%E1%BB%85n-v%C4%83n-c%C3%B4ng-307120342/",
+    "facebook": "https://www.facebook.com/van.cong.141904/",
     "twitter": "https://twitter.com"
   },
   "Experience": {
     "title": "Projects & Internship",
     "items": {
       "exp1": {
-        "company": "Hệ thống SaaS E-Commerce (NestJS)",
+        "company": "SaaS E-Commerce (NestJS)",
         "role": "Full-stack Developer",
         "period": "Jan 2025 - Mar 2025",
         "points": [
