@@ -20,7 +20,7 @@ export default function LocaleSwitcher() {
       router.replace(
         // @ts-expect-error -- pathname stays the same
         {pathname, params},
-        {locale: nextLocale}
+        {locale: nextLocale, scroll: false}
       );
     });
   }

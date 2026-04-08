@@ -9,8 +9,8 @@
     "contact": "Liên hệ"
   },
   "Hero": {
-    "title": "Xây dựng tương lai qua <accent>Kiến trúc Backend & Full-stack</accent>",
-    "subtitle": "Chào bạn, tôi là <bold>Nguyễn Văn Công</bold>, một Lập trình viên Backend đam mê xây dựng các hệ thống mạnh mẽ, có khả năng mở rộng và các giải pháp kỹ thuật số tinh tế. Sẵn sàng biến ý tưởng của bạn thành hiện thực.",
+    "title": "Xây dựng tương lai qua <accent>Kiến trúc Full-stack</accent>",
+    "subtitle": "Chào bạn, tôi là <bold>Nguyễn Văn Công</bold>, một Lập trình viên Full-stack đam mê xây dựng các hệ thống mạnh mẽ, có khả năng mở rộng và các giải pháp kỹ thuật số tinh tế. Sẵn sàng biến ý tưởng của bạn thành hiện thực.",
     "cta_contact": "Liên hệ tôi",
     "cta_projects": "Xem dự án",
     "stats_years": "Năm kinh nghiệm",
@@ -24,7 +24,16 @@
     "bio_p1": "Tôi là sinh viên năm cuối ngành Công nghệ Thông tin đang theo đuổi bằng Kỹ sư, với sự tập trung chuyên sâu vào Thiết kế Hệ thống Backend, Kiến trúc SaaS và Hạ tầng Cloud.",
     "bio_p2": "Tôi có thế mạnh trong việc xây dựng các nền tảng SaaS quy mô lớn sử dụng NestJS, Prisma và PostgreSQL. Tôi đam mê triển khai các tính năng nâng cao như giao tiếp thời gian thực, Redis caching và hạ tầng cloud AWS để đảm bảo hiệu năng và độ tin cậy tối ưu.",
     "skills_title": "Kỹ năng thế mạnh",
-    "skills": ["SaaS / Kiến trúc", "NestJS / Node.js", "Next.js / Vue.js", "Prisma / PostgreSQL", "MongoDB / NoSQL", "AWS / Cloud", "Redis / Caching", "Chat Realtime"]
+    "skills": [
+      "NestJS / Node.js",
+      "Next.js / Vue.js",
+      "Prisma / PostgreSQL",
+      "Zustand / Persist",
+      "CASL / RBAC",
+      "AWS / Cloud",
+      "Redis / Caching",
+      "Real-time / SaaS"
+    ]
   },
   "Projects": {
     "title": "Dự án tiêu biểu",
@@ -59,17 +68,17 @@
     }
   },
   "SocialLinks": {
-    "github": "https://github.com",
-    "linkedin": "https://linkedin.com",
-    "facebook": "https://facebook.com",
+    "github": "https://github.com/NguyenVanCong204",
+    "linkedin": "https://www.linkedin.com/in/nguy%E1%BB%85n-v%C4%83n-c%C3%B4ng-307120342/",
+    "facebook": "https://www.facebook.com/van.cong.141904/",
     "twitter": "https://twitter.com"
   },
   "Experience": {
     "title": "Dự án & Thực tập",
     "items": {
       "exp1": {
-        "company": "Hệ thống E-Commerce (NestJS)",
-        "role": "Lập trình viên Backend",
+        "company": "SaaS E-Commerce (NestJS)",
+        "role": "Lập trình viên Full-stack",
         "period": "Tháng 01/2025 - Tháng 03/2025",
         "points": [
           "Xây dựng RESTful APIs theo kiến trúc MVC sử dụng NestJS.",
